@@ -1,0 +1,95 @@
+###############Ejemplos Afin################
+
+./afin -C -m 26 -a 7 -b 5 ##Todo por teclado y pantalla
+./afin -D -m 26 -a 7 -b 5 ##Todo por teclado y pantalla
+
+./afin -C -m 26 -a 7 -b 5 -i entrada_cifrar.txt ##Lectura de un fichero y se muestra por pantalla
+./afin -D -m 26 -a 7 -b 5 -i entrada_descifrar.txt ##Lectura de un fichero y se muestra por pantalla
+
+./afin -C -m 26 -a 7 -b 5 -o salida_cifrar.txt ##Lectura por teclado y se escribe en un fichero
+./afin -D -m 26 -a 7 -b 5 -o salida_descifrar.txt ##Lectura por teclado y se escribe en un fichero
+
+./afin -C -m 26 -a 7 -b 5 -i entrada_cifrar.txt -o salida_cifrar.txt ##Se lee de un fichero y se escribe en otro fichero
+./afin -D -m 26 -a 7 -b 5 -i entrada_descifrar.txt -o salida_descifrar.txt ##Se lee de un fichero y se escribe en otro fichero
+
+###############Ejemplos Afin Mejorado################
+
+./afin_mejorado -C -m 676 -a 93 -b 4 
+./afin_mejorado -D -m 676 -a 93 -b 4 
+
+./afin_mejorado -C -m 676 -a 93 -b 4 -i entrada_cifrar.txt 
+./afin_mejorado -D -m 676 -a 93 -b 4 -i entrada_descifrar.txt 
+
+./afin_mejorado -C -m 676 -a 93 -b 4 -o salida_cifrar.txt 
+./afin_mejorado -D -m 676 -a 93 -b 4 -o salida_descifrar.txt 
+
+./afin_mejorado -C -m 676 -a 93 -b 4 -i entrada_cifrar.txt -o salida_cifrar.txt 
+./afin_mejorado -D -m 676 -a 93 -b 4 -i entrada_descifrar.txt -o salida_descifrar.txt 
+
+###############Ejemplos Vigenere################
+
+./vigenere -C -k EJEMPLO
+./vigenere -D -k EJEMPLO
+
+./vigenere -C -k EJEMPLO -i entrada_cifrar.txt 
+./vigenere -D -k EJEMPLO -i entrada_descifrar.txt 
+
+./vigenere -C -k EJEMPLO -o salida_cifrar.txt 
+./vigenere -D -k EJEMPLO -o salida_descifrar.txt 
+
+./vigenere -C -k EJEMPLO -i entrada_cifrar.txt -o salida_cifrar.txt
+./vigenere -D -k EJEMPLO -i entrada_descifrar.txt -o salida_descifrar.txt 
+
+###############Ejemplos Kasiski################
+
+./kasiski -l 3
+
+./kasiski -l 3 -i texto_cifrado.txt 
+
+###############Ejemplos Indice Coincidencia################
+
+./indice_c -l 1 
+
+./indice_c -l 1 -i texto_cifrado.txt 
+
+./indice_c -l 1 -o salida_resultados.txt
+
+./indice_c -l 1 -i texto_cifrado.txt -o salida_resultados.txt
+
+###############Ejemplos Criptoanálisis Vigenere################
+
+./criptoanalisis_vigenere -n 7
+
+./criptoanalisis_vigenere -n 7 -i texto_cifrado.txt
+
+###############Ejemplos Flujo################
+
+./flujo -C 
+./flujo -D
+
+./flujo -C -i entrada_cifrar.txt
+./flujo -D -i entrada_descifrar.txt
+
+./flujo -C -o salida_cifrar.txt
+./flujo -D -o salida_descifrar.txt
+
+./flujo -C -i entrada_cifrar.txt -o salida_cifrar.txt
+./flujo -D -i entrada_descifrar.txt -o salida_descifrar.txt
+
+###############Ejemplos Permutaciones################
+
+./permutaciones -C -k1 2341 -k2 231
+./permutaciones -D -k1 2341 -k2 231
+
+./permutaciones -C -k1 2341 -k2 231 -i entrada_cifrar.txt
+./permutaciones -D -k1 2341 -k2 231 -i entrada_descifrar.txt
+
+./permutaciones -C -k1 2341 -k2 231 -o salida_cifrar.txt
+./permutaciones -D -k1 2341 -k2 231 -o salida_descifrar.txt
+
+./permutaciones -C -k1 2341 -k2 231 -i entrada_cifrar.txt -o salida_cifrar.txt
+./permutaciones -D -k1 2341 -k2 231 -i entrada_descifrar.txt -o salida_descifrar.txt
+
+
+
+
