@@ -6,7 +6,7 @@ Cada carpeta contienen los programas pedidos en cada una de las tres prácticas 
 P1:
 1. Algoritmos de Euclides y Euclides Extendido.
 2. Algoritmos de cifrado Afín, Flujo, Vigenere y Permutaciones.
-2. Ataques por el Kasiski y el Índice de Coincidencia.
+2. Ataques por el Test de Kasiski y el Índice de Coincidencia.
 
 P2:
 1. Algoritmos de cifrado del DES Simple y el DES Triple (en versión CBC).
